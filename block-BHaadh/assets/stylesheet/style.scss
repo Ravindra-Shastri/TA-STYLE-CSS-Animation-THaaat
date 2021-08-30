@@ -34,6 +34,7 @@ body {
   .cube {
     position: relative;
     width: 95px;
+    
   }
   .side {
     height: 95px;
@@ -41,18 +42,22 @@ body {
     position: absolute;
     text-align: center;
     width: 95px;
+
   }
   .top {
     background:cornflowerblue;
     transform: rotate(-45deg) skew(15deg, 15deg);
+    border: 1px solid white;
   }
   .left {
     background:cornflowerblue;
     transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+    border: 1px solid white;
   }
   .right {
     background: cornflowerblue;
     transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+    border: 1px solid white;
   }
 
 //   3D CUBE
