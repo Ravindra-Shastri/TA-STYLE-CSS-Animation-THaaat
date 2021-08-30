@@ -112,16 +112,19 @@ body {
 .top {
   background: cornflowerblue;
   transform: rotate(-45deg) skew(15deg, 15deg);
+  border: 1px solid white;
 }
 
 .left {
   background: cornflowerblue;
   transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+  border: 1px solid white;
 }
 
 .right {
   background: cornflowerblue;
   transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+  border: 1px solid white;
 }
 
 .display {
